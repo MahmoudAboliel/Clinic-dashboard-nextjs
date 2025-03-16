@@ -27,7 +27,7 @@ const CardPatient = ({name, img, age, gender, date, reservationID, patientID, re
                         : 'border-(--c-red)';
 
     return (
-        <div className={`flex items-center justify-between rounded-md mb-1 border-b border-t  p-3 ${styleType}`}>
+        <div className={`flex items-center justify-between mb-1 border-l-4 p-3 ${styleType}`}>
             <div className="flex flex-wrap items-center gap-3">
                 {img === null 
                 ? (<div className="w-[40px] h-[40px] rounded-full bg-(--bg-d)" />) 
